@@ -1,25 +1,12 @@
 import type { Config } from 'tailwindcss';
 
+import { nextui } from '@nextui-org/theme';
+
 export default {
   darkMode: 'class',
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}'
+    './src/**/*.{ts,tsx}',
+    './node_modules/@nextui-org/theme/dist/components/**/*.{js,ts,jsx,tsx}'
   ],
-  theme: {
-    extend: {
-      colors: {
-        primary: 'var(--primary)',
-        secondary: 'var(--secondary)',
-        tertiary: 'var(--tertiary)',
-        'color-light': 'var(--color-light)',
-        'color-dark': 'var(--color-dark)',
-        'accent-primary': 'var(--accent-primary)',
-        'accent-primary-state': 'var(--accent-primary-state)'
-      }
-    }
-  },
-  plugins: []
+  plugins: [nextui()]
 } satisfies Config;
