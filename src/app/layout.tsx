@@ -8,6 +8,7 @@ import type { PropsWithChildren } from 'react';
 
 import config from '_config';
 
+import Navbar from '@/components/navbar';
 import RootProvider from '@/providers/root';
 
 export const metadata: Metadata = {
@@ -28,7 +29,11 @@ export default function RootLayout({ children }: TRootLayout) {
   return (
     <html lang='en' suppressHydrationWarning>
       <body>
-        <RootProvider>{children}</RootProvider>
+        <RootProvider>
+          <Navbar />
+
+          {children}
+        </RootProvider>
       </body>
     </html>
   );

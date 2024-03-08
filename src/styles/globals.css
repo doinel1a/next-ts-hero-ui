@@ -8,4 +8,8 @@
   div[data-overlay-container] {
     @apply h-full w-full;
   }
+
+  div[data-overlay-container] {
+    @apply flex flex-col;
+  }
 }
