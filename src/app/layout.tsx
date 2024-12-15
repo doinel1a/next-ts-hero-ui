@@ -9,7 +9,7 @@ import type { PropsWithChildren } from 'react';
 import config from '_config';
 
 import Navbar from '@/components/navbar';
-import RootProvider from '@/providers/root';
+import RootProvider from '@/components/providers/root';
 
 export const metadata: Metadata = {
   title: config.metadata.title,
