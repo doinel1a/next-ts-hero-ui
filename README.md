@@ -73,6 +73,7 @@ This repository comes 🔋 packed with:
 - **Next.js 15**;
 - **React.js 19**;
 - **TypeScript**;
+- **NextUI**;
 - **TailwindCSS**;
 - **SASS** & **SCSS**;
 - **ESLint**;
