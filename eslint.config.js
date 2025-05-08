@@ -13,14 +13,17 @@ export default tseslint.config(
   {
     ignores: ['.next']
   },
-  /**
-   * Under the hood 'next' automatically configures:
-   * - eslint-plugin-next
-   * - eslint-plugin-react
-   * - eslint-plugin-react-hooks
-   * - eslint-plugin-jsx-a11y
-   */
-  ...compat.extends('next'),
+  ...compat.config({
+    /**
+     * Under the hood 'next' automatically configures:
+     * - eslint-plugin-next
+     * - eslint-plugin-react
+     * - eslint-plugin-react-hooks
+     * - eslint-plugin-jsx-a11y
+     */
+    extends: ['next'],
+    plugins: ['@tanstack/query']
+  }),
   prettierConfig,
   prettierPlugin,
   sonarjs.configs.recommended,
