@@ -15,10 +15,10 @@
 [opera-icon]: https://github.com/alrra/browser-logos/blob/main/src/opera/opera_64x64.png
 [safari-icon]: https://github.com/alrra/browser-logos/blob/main/src/safari/safari_64x64.png
 
-# Next.js 15 TypeScript & HeroUI — Template
+# Next.js 16 TypeScript & HeroUI — Template
 
 This development starter template is the ultimate solution to help you getting started on your project in no time, without the hassle of setting up and configuring your development environment from scratch each time you start working.
-This repository is ideal for front-end developers who want to build modern, fast and reliable web applications with the latest cutting edge technologies such as **Next.js 15**, **React.js 19**, **TypeScript**, **HeroUI**, **TailwindCSS 4**, **ESLint**, **Prettier**, **Husky** and much more!
+This repository is ideal for front-end developers who want to build modern, fast and reliable web applications with the latest cutting edge technologies such as **Next.js 16**, **React.js 19**, **TypeScript**, **HeroUI**, **TailwindCSS 4**, **ESLint**, **Prettier**, **Husky** and much more!
 
 ---
 
@@ -65,7 +65,7 @@ This repository is ideal for front-end developers who want to build modern, fast
    | **build** your **production app**   | `npm run build`   | `bun run build`   | `pnpm build`   | `yarn build`   |
    | **preview** your **production app** | `npm run preview` | `bun run preview` | `pnpm preview` | `yarn preview` |
 
-[Back to :arrow_up:](#nextjs-15-typescript--heroui--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#nextjs-16-typescript--heroui--template "Back to 'Table of contents' section")
 
 ---
 
@@ -73,20 +73,20 @@ This repository is ideal for front-end developers who want to build modern, fast
 
 This repository comes 🔋 packed with:
 
-- **Next.js 15**
+- **Next.js 16**
 - **React.js 19**
 - **TypeScript**
 - **HeroUI**
 - **TailwindCSS 4**
 - **SASS** & **SCSS**
-- **ESLint**
+- **ESLint 10**
 - **Prettier**
 - **Husky**
 - **Commitlint**
 - **Lint staged**
 - **Playwright**
 
-[Back to :arrow_up:](#nextjs-15-typescript--heroui--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#nextjs-16-typescript--heroui--template "Back to 'Table of contents' section")
 
 ---
 
@@ -108,7 +108,7 @@ Update the configuration [here][browserslist] and check in real-time the **globa
 
 **\* The more versions you need to support, the larger the JS and CSS bundle sizes will be.**
 
-[Back to :arrow_up:](#nextjs-15-typescript--heroui--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#nextjs-16-typescript--heroui--template "Back to 'Table of contents' section")
 
 ---
 
@@ -133,7 +133,7 @@ Please check the [**contributing guide**][code-of-conduct] for details on how to
     4.  Push your new branch: `git push origin fix/BUG-FIX`
 4.  **Open a new [pull request][pulls]**
 
-[Back to :arrow_up:](#nextjs-15-typescript--heroui--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#nextjs-16-typescript--heroui--template "Back to 'Table of contents' section")
 
 ---
 
@@ -143,7 +143,7 @@ All logos and trademarks are the property of their respective owners.
 Everything else is distributed under the **MIT License**.  
 See the [LICENSE][license] file for more informations.
 
-[Back to :arrow_up:](#nextjs-15-typescript--heroui--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#nextjs-16-typescript--heroui--template "Back to 'Table of contents' section")
 
 ---
 
@@ -154,4 +154,4 @@ Special thanks to:
 - [alrra](https://github.com/alrra) for [browser-logos](https://github.com/alrra/browser-logos)
 - [tandpfun](https://github.com/tandpfun) for [skill-icons](https://github.com/tandpfun/skill-icons)
 
-[Back to :arrow_up:](#nextjs-15-typescript--heroui--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#nextjs-16-typescript--heroui--template "Back to 'Table of contents' section")
