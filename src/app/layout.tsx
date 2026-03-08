@@ -1,8 +1,6 @@
 import '../styles/globals.scss';
 import '../styles/globals.css';
 
-import React from 'react';
-
 import type { Metadata, Viewport } from 'next';
 import type { PropsWithChildren } from 'react';
 
