@@ -1,8 +1,8 @@
-/* eslint-disable import/no-anonymous-default-export */
-
-export default {
+const config = {
   plugins: {
     '@tailwindcss/postcss': {},
     cssnano: {}
   }
 };
+
+export default config;
