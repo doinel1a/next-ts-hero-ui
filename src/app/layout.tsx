@@ -4,10 +4,10 @@ import '../styles/globals.css';
 import type { Metadata, Viewport } from 'next';
 import type { PropsWithChildren } from 'react';
 
-import config from '_config';
-
 import Navbar from '@/components/navbar';
 import RootProvider from '@/components/providers/root';
+
+import config from '../../_config';
 
 export const metadata: Metadata = {
   title: config.metadata.title,
