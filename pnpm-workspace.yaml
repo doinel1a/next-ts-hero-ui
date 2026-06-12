@@ -1,6 +1,6 @@
-onlyBuiltDependencies:
-  - '@heroui/shared-utils'
-  - '@parcel/watcher'
-  - '@tailwindcss/oxide'
-  - sharp
-  - unrs-resolver
+allowBuilds:
+  '@heroui/shared-utils': true
+  '@parcel/watcher': true
+  '@tailwindcss/oxide': true
+  sharp: true
+  unrs-resolver: true
