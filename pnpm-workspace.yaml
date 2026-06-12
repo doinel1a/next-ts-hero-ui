@@ -4,3 +4,6 @@ allowBuilds:
   '@tailwindcss/oxide': true
   sharp: true
   unrs-resolver: true
+
+blockExoticSubdeps: true
+minimumReleaseAge: 10080 # 7 days
